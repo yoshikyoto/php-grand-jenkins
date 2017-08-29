@@ -1,0 +1,21 @@
+{
+    "name": "yoshikyoto/php-grand-jenkins",
+    "description": "",
+    "keywords": ["php", "jenkins"],
+    "license": "MIT",
+    "authors": [
+        {"name": "yoshikyoto"}
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*"
+    },
+    "autpload": {
+        "psr-4": {
+            "Grand\\Jenkins\\": "src/",
+            "Grand\\Jenkins\\Test": "test/"
+        }
+    }
+}
